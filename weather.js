@@ -5,6 +5,7 @@ let btn=document.querySelector("#btn");
 let city=document.querySelector("#city");
 let country=document.querySelector("#country");
 let cls=document.querySelector(".hide");
+// using current position location
 //  let res=navigator.geolocation.getCurrentPosition((position)=>{
 //     let lati=position.coords.latitude;
 //     let longi=position.coords.longitude;
