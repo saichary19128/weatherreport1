@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display:flex;
+    height:40vh;
+    width:20%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color:rgba(109, 104, 104, 0.3);
+    flex-wrap:wrap;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+    gap:20px; 
+    padding :40px;  
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    padding-top:10px;
+}
+#submitbtn{
+    width:50px;
+}
